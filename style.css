@@ -1,0 +1,278 @@
+*
+{
+    margin: 0;
+
+    padding: 0;
+
+
+    background-color: crimson;
+
+    color: white;
+}
+
+
+
+
+
+
+h1
+{
+    margin-left: 20px;
+
+    margin-top: 10px;
+
+    margin-bottom: 85px;
+
+    text-align: center;
+
+
+
+    font-size: 80px;
+
+    text-decoration: line-through;
+
+    text-decoration-color: crimson;
+}
+
+
+
+
+
+
+form
+{
+    display: flex;
+
+    flex-direction: column;
+
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    margin-top: 50px;
+}
+
+
+
+    label
+    {
+        font-weight: 550;
+
+        font-size: 23px;
+
+        color: black;
+
+
+        margin-bottom: 5px;
+    }
+
+
+
+    #firstname
+    {
+        margin-bottom: 35px;
+
+        width: 300px;
+
+        height: 30px;
+
+        border-radius: 7px;
+
+        
+        color: darkred;
+
+        border: 1px solid black;
+
+        font-weight: 900;
+
+
+
+        background-color: ghostwhite;
+
+        text-align: center;
+
+        padding: 10px;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #firstname:hover
+    {
+        border: 3px solid black;
+    }
+
+
+
+    #firstname:focus
+    {
+        background-color: crimson;
+        
+        color: white;
+        
+        border: 3px solid black;
+    }
+
+
+
+
+
+
+    #surname
+    {
+        margin-bottom: 40px;
+
+        width: 300px;
+
+        height: 30px;
+
+        border-radius: 7px;
+
+        
+        color: darkred;
+
+        border: 1px solid black;
+
+        font-weight: 900;
+
+
+
+        background-color: ghostwhite;
+
+        text-align: center;
+
+        padding: 5px;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #surname:hover
+    {
+        border: 3px solid black;
+    }
+
+
+
+    #surname:focus
+    {
+        background-color: crimson;
+
+        color: white;
+
+        border: 3px solid black;
+    }
+
+
+
+
+
+
+#button_container
+{
+    display: flex;
+}
+
+
+
+    #submit
+    {
+        text-align: center;
+
+        height: 40px;
+
+        width: 70px;
+
+        margin-right: 10px;
+
+        font-weight: 900;
+
+        border-radius: 10px;
+
+        background-color: lightgray;
+
+        color: black;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #submit:hover
+    {
+        background-color: crimson;
+
+        color: white;
+
+
+        width: 220px;
+    }
+
+
+
+    #submit:focus
+    {
+        background-color: crimson;
+
+        color: white;
+
+
+        width: 220px;
+    }
+
+
+
+    #reset
+    {
+        text-align: center;
+
+        height: 40px;
+
+        width: 70px;
+
+        font-weight: 900;
+
+        border-radius: 10px;
+
+        background-color: lightgray;
+
+        color: black;
+
+
+
+        transition: all 0.10s ease-in-out 0s;
+    }
+
+
+
+    #reset:hover
+    {
+        background-color: crimson;
+
+        color: white;
+
+
+        width: 220px;
+    }
+
+
+
+    #reset:focus
+    {
+        background-color: crimson;
+
+        color: white;
+
+
+        width: 220px;
+    }
