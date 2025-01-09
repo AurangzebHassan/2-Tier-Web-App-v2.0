@@ -4,4 +4,4 @@ Basic 2-Tier Web App implemented using Java, HTML, and CSS. It runs using Apache
 
 I have uploaded all the files. The folder structure for an Apache Tomcat webapp is not followed here.
 
-This is the second and more refined frontend version of the first version web app I made. Hence, the name 'v2.0'.
+This is a more refined version of the first version web app I made. Hence, the name 'v2.0'.
